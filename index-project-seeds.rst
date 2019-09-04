@@ -1,9 +1,6 @@
-ICON Docs
----------
+Project Seeds for the ICON Blockchain 
+------------------------------------- 
 
-A consolidated view of multiple pieces of documentation provided by the ICON Foundation.  Does not include `ICON's official docs`_
-
-.. _ICON official docs: https://github.com/icon-project/documentation
 
 Table of Contents:
 
@@ -11,6 +8,12 @@ Table of Contents:
    :titlesonly:
    :caption: Table of Contents
 
-   index-icon-service
+   icon-e2e-testing
+   icon-ddos-protection
+   icon-logging
+   icon-monitoring
+   icon-pacemaker-ha
+   icon-multi-account-management
+   icon-terragrunt-gcp
 
 

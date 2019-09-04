@@ -1,6 +1,10 @@
 ﻿
 # ICON Blockchain Centralized Logging 
 
+**THIS PROPOSAL IS A WORK IN PROGRESS**
+
+- This might be too simple of a project for a fellow to take on. 
+
 This project aims to centralize the logging collection from the P-Rep, Citizen nodes, and sentry nodes for the ICON network. 
 
 ### Business case idea
@@ -9,7 +13,7 @@ We are currently developing numerous different configurations of P-Rep nodes tha
 ### Challenge
 This project has two components.  
 1. Basic version running that is a minimal configuration to run in an issolated environment that tracks 
-2. Centralized version that can handle be run 
+2. More advanced configuration - tbd 
 
 #### Minimal Configuration Challenges 
 - This was basically [already done](https://github.com/angelayanhe/insight-elk-monitoring) by a recent fellow [Angela He](https://platform.insightdata.com/profile/2997) 
@@ -24,13 +28,12 @@ This project has two components.
         - Long term we need a simple solution that the community feels comfortable with 
 
 #### Kubernetes Configuration Challenges 
-- 
+- tbd
 
 
 ### Tools
-- kubernetes
-- helm 
 - terraform + terragrunt (basic architecture supplied)
+- ELK stack 
 
 
 ### Success Metrics
@@ -48,8 +51,3 @@ This project has two components.
 - [Storage best practices](https://www.elastic.co/guide/en/elasticsearch/plugins/master/cloud-aws-best-practices.html)
 - [tf_aws_elasticsearch](https://github.com/terraform-community-modules/tf_aws_elasticsearch)
 - [terraform-aws-elasticsearch](https://github.com/cloudposse/terraform-aws-elasticsearch)
-
-#### Kubernetes Configuration  
-- [Central Logging in Multi-Account Environments](https://aws.amazon.com/blogs/architecture/central-logging-in-multi-account-environments/)
-- [Centralized logging in Kubernetes](https://medium.com/@maanadev/centralized-logging-in-kubernetes-d5a21ae10c6e)
-- [Logging in Kubernetes with Elasticsearch, Kibana, and Fluentd](https://mherman.org/blog/logging-in-kubernetes-with-elasticsearch-Kibana-fluentd/)
