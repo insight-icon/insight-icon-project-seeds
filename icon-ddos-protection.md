@@ -7,7 +7,7 @@ Nodes for ICON are major targets for DDoS attacks as there is a direct monitary 
 
 ### Challenge
 - Autoscaling groups on all nginx instances (containers?) hooked up and tested against appropriate metrics 
-- Reverse pro
+- Immutable reverse proxy configuration setup 
 
 ### Tools
 - terraform 
