@@ -8,12 +8,13 @@ Table of Contents:
    :titlesonly:
    :caption: Table of Contents
 
+   icon-dapp-reference-architecture
    icon-e2e-testing
    icon-ddos-protection
    icon-logging
    icon-monitoring
    icon-pacemaker-ha
-   icon-multi-account-management
+   icon-ansible-security-hardening
    icon-terragrunt-gcp
 
 
